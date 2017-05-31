@@ -7,7 +7,7 @@ http://archive.ics.uci.edu/ml/datasets/Congressional+Voting+Records
 There are 435 votes in total; 
 Each candidate is either a republican or a democrat.
 Each candidate voted on 16 different votes maximum.
-The first column in the database represents the candidate {Republica/Democrat},
+The first column in the database represents the candidate {Republican/Democrat},
 the other 16 columns represent the votes; Each vote is either y for Yes, n for No and ? for Abstain.
 
 I calculated the entropy for the total democrats and republicans, then I calculated each information-gain per each attribute.
